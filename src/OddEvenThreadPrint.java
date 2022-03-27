@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class Test {
+public class OddEvenThreadPrint {
 
     // Thread 1 print odd number
     //Thread 2 print even number
@@ -62,7 +62,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Test test = new Test();
+        OddEvenThreadPrint test = new OddEvenThreadPrint();
 
         Thread t1 = new Thread(new Runnable() {
             @Override
