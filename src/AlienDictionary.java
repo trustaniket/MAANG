@@ -36,6 +36,7 @@ public class AlienDictionary {
         Queue<Character> queue = new LinkedList<>();
         StringBuilder sb = new StringBuilder();
 
+
         for(Character key : indegrees.keySet()){
             if(indegrees.get(key) == 0)
                 queue.offer(key);

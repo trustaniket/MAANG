@@ -1,10 +1,7 @@
 package Java8Functions;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 public class Test {
 
@@ -19,6 +16,9 @@ public class Test {
     }
 
     public static void main(String[] args) {
+
+        Integer[] arr = {1,2};
+        Arrays.sort(arr,Comparator.reverseOrder());
         //System.out.println(5/3);
         Test test  = new Test();
         MyTestClass testClass = new MyTestClass();

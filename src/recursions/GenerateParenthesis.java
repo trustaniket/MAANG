@@ -9,7 +9,7 @@ public class GenerateParenthesis {
 
         public static void main(String[] args) {
             GenerateParenthesis generateParenthesis = new GenerateParenthesis();
-            generateParenthesis.generateParenthesis(3);
+            System.out.println(generateParenthesis.generateParenthesis(3));
         }
         public List<String> generateParenthesis(int n) {
             List<String> ans = new ArrayList<>();
